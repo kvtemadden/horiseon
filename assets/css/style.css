@@ -1,0 +1,153 @@
+/*General content styles*/
+/*Sets some default styling below for everything on the page unless stated otherwise*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*Sets whole body content (page) background colour and font family to below, is the default unless specified otherwise elsewhere in the styling*/
+body {
+    background-color: #d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Link styling: recoloured to white, removed underline*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*Paragraph styling: Resized to 16px*/
+p {
+    font-size: 16px;
+}
+
+/*Header styles*/
+/*h1 styling: displays displayed inline with a font size of 20px*/
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*h2 styling: adds 20px gap below header and sets font size to 36px*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*h3 styling: adds gap of 10px below header and centers the text*/
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*h4 styling: Change font size to 20px*/
+h4 {
+    font-size: 20px;
+}
+
+/*Logo styling*/
+/*Logo styling: Changes colour of "SEO" in "Horiseon" to highlight SEO in the company name. SEO is a service they provide which is where the link comes.*/
+#seo {
+    color: #d9dcd6;
+}
+/*Logo styling: Changes the logo font family to the below*/
+#logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Logo styling: Changes colour of "SEO" in "Horiseon" to highlight SEO in the company name. SEO is a service they provide which is where the link comes.*/
+#seo {
+    color: #d9dcd6;
+}
+
+/*Navigation bar styling*/
+/*Navigation bar styling: Creates 20px border around content, changes font colour to white and adds blue (#2a607c) background colour*/
+.navBar {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*Nav bar list styling: Adds 15px gap at the top to make text look centered, adds 20px gap from right of the page and sits (floats) right to separate from the logo (increases UX as natural flow for nav bar options is top right. Sets font size to 20px.*/
+.navBar div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+/*Unordered nav bar list styling: removes bullet points.*/
+.navBar div ul {
+    list-style-type: none;
+}
+/*Removes usual list downward order for the nav bar effect, displays them side by side with a 25px gap between each option.*/
+.navBar div li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Hero image section*/
+/*Hero styling: Hero is the big image (attention capture) at the top of the page, this sets background image to be as big as it can be within the 100% width (fills page) and 800px height. Also adds 25px gap below this section & background image is the image you can see on the site*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Services section / Main content*/
+/*Service (or feature of service) styling: Adds blue (#0072bb) section block which is 300px high with gap of 20px below, text is white, adds 20px blue space around content (padding) within the box*/
+/*Main (most important) content section styling: kept to 75% width of the page with 20px gap from the left of the page. Extends as far as it can inline with other content.*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.service {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Service section image styling: keeps image to a maximum height of 200px*/
+.service img {
+    max-height: 200px;
+}
+/*Used on the service images to change the layout of content, moves (floats) whatever it's used on to the left with a 25px gap to the right*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*Used on the service images to change the layout of content, moves (floats) whatever it's used on to the right with a 25px gap to the left*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Benefits section, bar on the right of main content*/
+/*Benefits section styling: Creates blue (#2589bd) box, 20% of the page width and as high as it can go with 20px gap from right of the page. 20px gap around the content. Floated right to sit beside the services section*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+}
+/* Individual benefit styling: Changes font colour and adds a margin (space/gap) below individual benefits i.e. Below [header, image & descriptive text])*/
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*Benefit img styling: displays to full width of container, adds 10px space all around it and keeps it to 150px width or below */
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Footer styling*/
+/*Footer styling: creates 30px spacing around content, removes float so it displays block and is aligned center. Changed font family to below.*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
