@@ -50,10 +50,6 @@ h4 {
 #logo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/*Logo styling: Changes colour of "SEO" in "Horiseon" to highlight SEO in the company name. SEO is a service they provide which is where the link comes.*/
-#seo {
-    color: #d9dcd6;
-}
 
 /*Navigation bar styling*/
 /*Navigation bar styling: Creates 20px border around content, changes font colour to white and adds blue (#2a607c) background colour*/
