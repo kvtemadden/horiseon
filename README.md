@@ -63,7 +63,7 @@ I changed the h2 in the footer section to h4 to make it follow a more sequential
 
 ### HTML
 
-I removed the unnecessary IDs from the HTML as they weren't being used, and recreated IDs for the "SEO" section in the Horiseon logo.
+I created IDs for the logo and "SEO" section in the Horiseon logo.
 
 I added in an anchor link for the SEO link at the top of the page as it wasn't previously working.
 
